@@ -124,7 +124,7 @@ const cardsDisplay = [
 const cardContainer = document.querySelector(".card__container");
 function displayContent(timeframes) {
   let row = "";
-
+  cardContainer.innerHTML = "";
   cardsDisplay.forEach((card) => {
     let timeData = card.timeframes[timeframes];
     row += `<section class="cards">
