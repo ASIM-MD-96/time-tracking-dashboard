@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      size="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>time - tracking - dashboard</title>
+  </head>
+  <body class="bg-veryDarkBlue">
+    <!-- global container -->
+
+    <div
+      class="max-w-6xl flex flex-col md:flex-row text-white items-center md:justify-center md:mx-auto min-h-screen py-10 gap-6"
+    >
+      <div class="flex md:py-20 px-8">
+        <div class="max-w-sm flex bg-darkBlue rounded-xl relative flex-col">
+          <div class="image__bg bg-blue rounded-xl">
+            <div
+              class="flex items-center py-10 px-6 space-x-6 md:flex-col md:items-start md:space-y-10 md:space-x-0"
+            >
+              <img
+                src="images/image-jeremy.png"
+                alt=""
+                class="w-16 h-16 ring-2 ring-white rounded-full"
+              />
+              <div class="flex flex-col space-y-2 md:items-start">
+                <p class="text-lg text-paleBlue font-Rubik">Report for</p>
+                <h1
+                  class="text-paleBlue font-Rubik text-2xl capitalize md:text-4xl md:pr-10"
+                >
+                  jeremy <span class="md:block">robson</span>
+                </h1>
+              </div>
+            </div>
+          </div>
+          <!-- time Frame -->
+          <div
+            class="flex justify-evenly py-6 md:flex-col md:pl-6 md:space-y-2 cursor-pointer capitalize text-desaturatedBlue font-Rubik text-lg"
+          >
+            <p
+              class="daily active__btn hover:text-white"
+            >
+              daily
+            </p>
+            <p
+              class="weekly active__btn active hover:text-white"
+            >
+              weekly
+            </p>
+            <p
+              class="monthly active__btn  hover:text-white"
+            >
+              monthly
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- cards -->
+      <div class="card__container grid grid-cols-1 md:grid-cols-3 gap-8">
+        <section class="cards">
+        </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
