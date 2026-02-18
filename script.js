@@ -7,7 +7,7 @@ const monthly = document.querySelector(".monthly");
 const cardsDisplay = [
   {
     title: "Work",
-    image: "../images/icon-work.svg",
+    image: "images/icon-work.svg",
     color: "hsl(15, 100%, 70%)",
     timeframes: {
       daily: {
@@ -26,7 +26,7 @@ const cardsDisplay = [
   },
   {
     title: "Play",
-    image: "../images/icon-play.svg",
+    image: "images/icon-play.svg",
     color: "hsl(195, 74%, 62%)",
     timeframes: {
       daily: {
@@ -45,7 +45,7 @@ const cardsDisplay = [
   },
   {
     title: "Study",
-    image: "../images/icon-study.svg",
+    image: "images/icon-study.svg",
     color: "hsl(348, 100%, 68%)",
     timeframes: {
       daily: {
@@ -64,7 +64,7 @@ const cardsDisplay = [
   },
   {
     title: "Exercise",
-    image: "../images/icon-exercise.svg",
+    image: "images/icon-exercise.svg",
     color: "hsl(145, 58%, 55%)",
     timeframes: {
       daily: {
@@ -83,7 +83,7 @@ const cardsDisplay = [
   },
   {
     title: "Social",
-    image: "./images/icon-social.svg",
+    image: "images/icon-social.svg",
     color: "hsl(264, 64%, 52%)",
     timeframes: {
       daily: {
@@ -102,7 +102,7 @@ const cardsDisplay = [
   },
   {
     title: "Self Care",
-    image: "../images/icon-self-care.svg",
+    image: "images/icon-self-care.svg",
     color: "hsl(43, 84%, 65%)",
     timeframes: {
       daily: {
