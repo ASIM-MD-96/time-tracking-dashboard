@@ -125,7 +125,6 @@ const cardContainer = document.querySelector(".card__container");
 function displayContent(timeframes) {
   let row = "";
   cardsDisplay.forEach((card) => {
-    cardContainer.innerHTML = "";
     let timeData = card.timeframes[timeframes];
     row += `<section class="cards">
           <div
@@ -167,6 +166,7 @@ function displayContent(timeframes) {
 
   cardContainer.innerHTML = row;
 }
+
 displayContent("daily");
 
 const activeBtn = document.querySelectorAll(".active__btn");
